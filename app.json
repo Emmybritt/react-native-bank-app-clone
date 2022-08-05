@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    "name": "Ulego",
+    "slug": "ulego-app",
+    "version": "1.5.3",
+    "orientation": "portrait",
+    "icon": "./assets/Uicon1.png",
+    "splash": {
+      "image": "./assets/images/Ulego.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B535B"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "This app will optionally use Face ID or Touch ID to save login"
+      },
+      "bundleIdentifier": "com.ulego.ulegoapp"
+    },
+    "android": {
+      "package": "com.ulegoapp_app",
+      "versionCode": 8,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Uicon1.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "web": {
+      "favicon": "./assets/Uicon1.png"
+    }
+  }
+}
